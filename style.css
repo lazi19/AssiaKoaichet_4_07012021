@@ -1,4 +1,5 @@
 body {
+
     margin: 0;
     padding: 0;
     background: #FFF;
@@ -100,7 +101,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(0, 0, 0, 0.7); /* changer la couleur */
 }
 
 .d-bloc button:hover {
@@ -651,7 +652,8 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    /*color: #575757!important; changer la couleur au noir  */
+    color: #000000!important;
 }
 
 .container {
@@ -736,7 +738,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    /* color: #FFFFFF!important; */
 }
 
 .portfolio-thumb {
@@ -961,6 +963,8 @@ h4 {
         -webkit-box-shadow: none;
         box-shadow: none;
     }
+
+   
     .navbar-brand img {
         max-height: 40px;
         width: auto;
@@ -1039,4 +1043,23 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/* style rajouter pour ameliorer le seo */
+blockquote p{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+blockquote p:last-child{
+    font-size: 12px;
+    font-weight: bold;
+    font-style:normal;
+}
+.titreBloc4{
+    font-size: 22px;
+    text-transform: none;
+    text-align: center;
+
 }
