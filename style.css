@@ -92,7 +92,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -736,10 +736,10 @@ h4 {
     margin-bottom: 14px;
     margin-top: 24px;
 }
-
+/* 
 .white {
-    /* color: #FFFFFF!important; */
-}
+    color: #FFFFFF!important;
+} */
 
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -766,6 +766,7 @@ h4 {
 
 .bgc-white {
     background-color: #FFFFFF;
+   
 }
 
 .bgc-dark-slate-blue {
@@ -777,9 +778,18 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    /* color: #F3976C!important; */
+    color: #ffffff!important;
+    
 }
 
+.tc-orangeShadow{
+    color: #F3976C!important;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
+     -1px 1px 0 #000, 1px 1px 0 #000, 1px 1px 2px #141414,
+      1px 1px 3px #141414, 1px 1px 5px #141414, 1px 1px 7px #141414,
+       1px 1px 10px #141414, 1px 1px 12px #141414, 1px 1px 18px #141414;
+}
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
@@ -812,19 +822,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
