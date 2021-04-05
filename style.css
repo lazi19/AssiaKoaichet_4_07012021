@@ -679,7 +679,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -736,10 +736,10 @@ h4 {
     margin-bottom: 14px;
     margin-top: 24px;
 }
-/* 
+
 .white {
     color: #FFFFFF!important;
-} */
+}
 
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -774,24 +774,25 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #BD3F04;
 }
 
 .tc-white {
     /* color: #F3976C!important; */
     color: #ffffff!important;
-    
 }
 
 .tc-orangeShadow{
-    color: #F3976C!important;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
+    /* color: #F3976C!important; */
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+    /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
      -1px 1px 0 #000, 1px 1px 0 #000, 1px 1px 2px #141414,
       1px 1px 3px #141414, 1px 1px 5px #141414, 1px 1px 7px #141414,
-       1px 1px 10px #141414, 1px 1px 12px #141414, 1px 1px 18px #141414;
+       1px 1px 10px #141414, 1px 1px 12px #141414, 1px 1px 18px #141414; */
 }
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #BD3F04 ;
     color: #FFFFFF!important;
 }
 
@@ -1071,5 +1072,23 @@ blockquote p:last-child{
     font-size: 22px;
     text-transform: none;
     text-align: center;
+}
+.img-responsive{
+    display: inline-block;
+}
 
+.col-sm-4{
+    color: rgb(255, 255, 255);
+}
+.rowPartenariats {
+    margin-top: 20px;
+}
+footer ul {
+    margin-top: 5px;
+}
+footer  li {
+   list-style-type: none;
+}
+#white a{
+    color: white !important;
 }
